@@ -1,0 +1,96 @@
+---
+title: "SRT411_A0"
+author: "Winson Ruan"
+date: "February 15, 2019"
+output: pdf_document
+---
+---
+title: "srt411A0"
+author: "Winson Ruan"
+date: "February 15, 2019"
+output: pdf_document
+---
+This assignment is discussing on using R Studio, plotting a data graph on the application. This assignment provides a lesson on the advantages of R and idea of how to use the programming with the explanation. 
+
+Document:https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#ToDo 1 Calculator
+```{r}
+((2019-2012)/(2019-1992))*100
+```
+#ToDo 2 Variables
+```{r}
+school = 2019-2012
+life = 2019-1992
+(school/life)*100
+```
+#ToDo 3 Functions
+```{r}
+c=c(4,5,8,11)
+mean(x=c)
+```
+#ToDo 4 Plots
+```{r}
+x=rnorm(100)
+plot(x)
+```
+#ToDo 5 Help
+```{r}
+help(sqrt)
+```
+
+#ToDo 6 Scripts
+```{r}
+source("todo6.R")
+```
+#ToDo 7 Matrices
+```{r}
+P=seq(from=31,to=60,by=1)
+Q=matrix(data=P,ncol=5)
+Q
+```
+#ToDo 8 Data Frames
+```{r}
+source("todo8.R")
+plot(t)
+```
+#ToDo 9 Graphics
+```{r}
+source("todo9.R")
+```
+#ToDo 10 Reading and Writing data
+```{r}
+source("todo10.R")
+todo10
+```
+#ToDo 11 Notavailable Data
+```{r}
+mean(x=sqrt(rnorm(100)))
+```
+#ToDo 12 Dates
+```{r}
+date=strptime(c("20190210","20191206","20190827"),format="%Y%m%d")
+date
+present=c(0,25,5)
+present
+plot(x=date,y=present)
+```
+#ToDo 13 For-Loop
+```{r}
+source("todo13.R")
+np13
+```
+#ToDo 14 Writing your own function
+```{r}
+source("todo14.R")
+todo14(arg1=1,arg2=100)
+
+```
+#ToDo 15 Footnote
+```{r}
+source("todo15.R")
+todo15
+```

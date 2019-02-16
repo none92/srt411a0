@@ -1,0 +1,2 @@
+x=rnorm
+plot(x)
